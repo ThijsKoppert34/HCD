@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website voor Roger</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="hamburgerPopUp">
+        <button id="close" class="material-icons">
+            close
+        </button>
+    </div>
+
+
+    <section class="eenVanTwee">
+        <article class="tekstAantekeningen">
+
+            <div class="bovenaanPagina">
+                <button id="hamburger" class="material-icons">
+                    menu
+                </button>
+
+                <button onclick="readPage(this)" id="voorleesKnop" class="material-icons">
+                    volume_up
+                </button>
+            </div>
+
+            <nav>
+                <div class="nav_left">
+                    <button id="arrowLeft" class="material-icons">
+                        arrow_back
+                    </button>
+                </div>
+
+                <div class="nav_center">
+                    <h1>Hoofdstuk 1</h1>
+                </div>
+
+                <div class="nav_right">
+                    <button id="arrowRight" class="material-icons">
+                        arrow_forward
+                    </button>
+                </div>
+            </nav>
+
+            <p id="tekstDeelBoek" class="tekstDeelBoek">
+                Dit is een voorbeeld van een tekst die in de eerste sectie van de website kan worden weergegeven. Hier
+                kan
+                informatie
+                over het boek of hoofdstuk worden gepresenteerd. De tekst kan verder worden uitgebreid met meer details,
+                zoals
+                samenvattingen, analyses of andere relevante inhoud.
+            </p>
+        </article>
+
+        <article class="aantekeningenArticle">
+            <div class="inputContainer">
+                <label for="invoerAantekening"></label>
+                <input id="invoerAantekening" type="text" name="invoerAantekening"
+                    placeholder="Begin hier met typen van je aantekeningen...">
+                <button class="material-icons" id="spraakKnop" aria-label="Start spraakherkenning">
+                    mic
+                </button>
+            </div>
+        </article>
+    </section>
+
+    <section class="tweeVanTwee" id="notitieContainer">
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

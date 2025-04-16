@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --achtergrondKleur: #1f1f1f;
+    --tekstKleur: #ffed27;
+    --achtergrondKleur2: #515151;
+    --achtergrondKleur3: #6f6f6f;
+    --borderKleur: #0afff3;
+    --knoppenKleur: #ff8400;
+    --knoppenKleur2: #ffcb7d;
+}
+
+body {
+    background-color: var(--achtergrondKleur);
+    color: var(--tekstKleur);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+
+h1 {
+    font-size: clamp(.25rem, 4.928vw + -0.543rem, 4rem);
+    font-weight: bold;
+}
+
+#arrowLeft,
+#arrowRight {
+    padding: .5rem 2rem;
+    background-color: var(--knoppenKleur);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#voorleesKnop {
+    padding: .5rem 2rem;
+    background-color: violet;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+#hamburger {
+    margin-left: 2rem;
+    padding: .5rem 2rem;
+    background-color: rgb(179, 255, 14);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.eenVanTwee {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+& article:last-of-type {
+    margin-top: auto;
+}
+
+.tweeVanTwee {
+    background-color: var(--achtergrondKleur3);
+    height: 100%;
+    width: 100%;
+}
+
+.tekstDeelBoek {
+    margin: 2rem;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.aantekeningenArticle {
+    background-color: var(--achtergrondKleur2);
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburgerPopUp {
+    display: none;
+}
+
+input {
+    width: 75cqw;
+    height: 6rem;
+    border-radius: 6px;
+}
+
+:focus {
+    outline: solid 7px var(--borderKleur);
+}
+
+#notitieContainer {
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.notitie {
+    background-color: #1b1b1b;
+    font-weight: bolder;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    color: #39ff14;
+    font-size: 1.3rem;
+}
+
+.bovenaanPagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#invoerAantekening {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    font-weight: 300;
+}
