@@ -112,7 +112,7 @@ function readPage(button) {
 
     // PAUSE
     if (synth.speaking && !synth.paused) {
-        synth.pause();
+        synth.cancel();
         button.textContent = "play_arrow"; // play icon
         return;
     }
@@ -161,6 +161,7 @@ function readPage(button) {
     synth.speak(utterance);
     button.textContent = "volume_off";
 }
+
 
 function spreekUit(tekst) {
     const synth = window.speechSynthesis;
