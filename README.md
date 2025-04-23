@@ -1,5 +1,5 @@
 # HCD
-**📚 Week 1**
+## **📚 Week 1** 
 In deze week kregen we de opdracht. Iedereen krijgt een persoon met een beperking toegewezen en je gaat specifiek voor deze persoon iets maken. Ik zit in groepje Roger, en roger heeft maculadegeneratie. Hij studeert op dit moment filosofie, en wil graag aantekeningen kunnen maken. Roger is op dit moment afhankelijk van een screenreader, hier moeten wij dus rekening mee houden.
 
 De opdracht is dus om een webapplicatie te maken waarbij roger eenvoudig zijn filosofieboeken kan lezen en daarbij aantekeningen kan maken. 
