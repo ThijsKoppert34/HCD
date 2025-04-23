@@ -62,4 +62,18 @@ Hierdoor kon ik veel efficienter beginnen met coderen. Het ging veel sneller en 
 Hij was weer super enthousiast! Wat mij een erg goed gevoel gaf. Mijn idee was om het minimalistisch te houden, niet hele lappe tekst toe te voegen en het eigenlijk kinderlijk eenvoudig te houden. Grote knoppen, felle kleuren en niet te veel poespas. Hij vond het echt heel goed en was er heel blij mee. Wat ik voor mijn laatste test volgende week nog wil doen is een record knopje toevoegen en misschien nog dat je kan tabben door de hoofdstukken
 
 ## **🎯 Week 4**
+Net de laatste test met roger gedaan. Voorafgaand aan de test heb ik de cursor aangepast en de microfoonknop gestyled.
+
+![Cursor en mic](./Images/CursorMic.png) 
+
+Hij was zeer te spreken over de cursor! Het negatieve kleuren effect vond hij ook echt top. Al met al ben ik zeer tevreden over het eindresultaat, want het doel (roger tevreden maken), is behaald!
+
+Als ik nog meer tijd had gehad had ik de volgende dingen willen fine-tunen:
+
+- Speech to text
+- Menu toevoegen
+- Notes opslaan op een plek
+- Notes kunnen editen
+- Tekst kunnen selecteren
+
 

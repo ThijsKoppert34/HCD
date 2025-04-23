@@ -242,5 +242,53 @@ if (SpeechRecognition) {
     console.log('Spraakherkenning wordt niet ondersteund door deze browser.');
 }
 
+const cursor = document.getElementById('mega-cursor');
+const offset = 40; // helft van 80px
+
+document.addEventListener('mousemove', e => {
+    cursor.style.left = `${e.clientX - offset}px`;
+    cursor.style.top = `${e.clientY - offset}px`;
+});
+
+// const h1 = document.getElementById("hoofdstukKop");
+// const menuu = document.getElementById("hoofdstukMenu");
+
+// h1.addEventListener("focus", () => {
+//     menuu.hidden = false;
+// });
+
+// h1.addEventListener("blur", () => {
+//     setTimeout(() => {
+//         if (!menuu.contains(document.activeElement)) {
+//             menuu.hidden = true;
+//         }
+//     }, 10); // korte delay om focusverschuiving af te wachten
+// });
+
+// // Voor demonstratie: klik op een item
+// menuu.querySelectorAll("li").forEach(item => {
+//     item.addEventListener("click", () => {
+//         h1.textContent = item.textContent;
+//         menuu.hidden = true;
+//     });
+// });
+
+// menuu.querySelectorAll("li").forEach(item => {
+//     item.addEventListener("click", () => {
+//         h1.textContent = item.textContent;
+//         menuu.hidden = true;
+//         h1.focus();
+//     });
+
+//     item.addEventListener("keydown", (e) => {
+//         if (e.key === "Enter") {
+//             h1.textContent = item.textContent;
+//             menuu.hidden = true;
+//             h1.focus();
+//         }
+//     });
+// });
+
+
 
 updateTekst();
