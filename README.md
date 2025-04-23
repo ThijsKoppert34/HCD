@@ -15,11 +15,11 @@ Dit zijn enkele dingen die ik uit de eerste kennismaking met roger heb kunnen ha
 
 Op donderdag ben ik begonnen met het maken van een eerste opzetje, dit is waar ik als eerst mee ga testen: 
 
-![Roger test 1](images/RogerTest1.png)
+![Roger test 1](./Images/RogerTest1.png)
 
-**Week 2**
+## **Week 2**
 
-**Week 3**
+## **Week 3**
 
-**Week 4**
+## **Week 4**
 
