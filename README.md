@@ -42,9 +42,24 @@ Dit was de week van het testen. Roger komt naar school om onze eerste ontwerpen 
 - *Verschil in kleur met titel en met tekst.*
 - *Humor vind hij ook belangrijk.*
 
+Tijdens de test kreeg ik eigenlijk een idee, het popte zo in mijn hoofd en ik begon gelijk een schets te maken nog voordat hij bij mij was aangekomen. Zo kon ik naast mijn website ook nog de schets laten zien aan hem en vragen wat hij hier van zou vinden. 
 
+![Idee test 1](./Images/IdeeTest1.png)
+
+Tijdens mijn test met het eerste ontwerp, die website, snapte hij eigenlijk niet zo goed wat de bedoeling was. Ik had wat bepaalde letters aan knoppen gekoppeld, dat vond hij opzich wel geinig, maar hoe het precies werkte was niet helemaal duidelijk. 
+
+Toen ik de schets liet zien was hij gelijk enthousiast! Ik wist wat me te doen stond, het oude ontwerp overboord gooien en volledig richten op het nieuwe ontwerp.
 
 ## **🧠 Week 3**
+Deze week de ena-laatste test. Ik heb mijn schets uitgewerkt in een werkend prototype. Dit heb ik gedaan door eerst een schets te maken op papier en de elementen op te delen in bijvoorbeeld divjes, buttons of links. 
+
+![Idee schets](./Images/SchetsPapier.jpg)
+
+Hierdoor kon ik veel efficienter beginnen met coderen. Het ging veel sneller en ik kwam makkelijker bij mijn gewenste resultaat. Waar ik mee ging testen was het volgende:
+
+![Idee schets](./Images/Test2Roger.png) 
+
+Hij was weer super enthousiast! Wat mij een erg goed gevoel gaf. Mijn idee was om het minimalistisch te houden, niet hele lappe tekst toe te voegen en het eigenlijk kinderlijk eenvoudig te houden. Grote knoppen, felle kleuren en niet te veel poespas. Hij vond het echt heel goed en was er heel blij mee. Wat ik voor mijn laatste test volgende week nog wil doen is een record knopje toevoegen en misschien nog dat je kan tabben door de hoofdstukken
 
 ## **🎯 Week 4**
 
